@@ -53,11 +53,7 @@ function signUp() {
         clearForm();
         // console.log(userContainer);
 
-        Swal.fire({
-            icon: "success",    
-            text: "Thanks for signing up. ",
-            
-        });
+        location.href = 'index.html'
     } 
     
     else {
